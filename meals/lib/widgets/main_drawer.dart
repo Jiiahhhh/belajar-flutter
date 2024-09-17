@@ -19,7 +19,7 @@ class MainDrawer extends StatelessWidget {
                   Theme.of(context)
                       .colorScheme
                       .primaryContainer
-                      .withOpacity(0.8)
+                      .withOpacity(0.8),
                 ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
@@ -27,8 +27,11 @@ class MainDrawer extends StatelessWidget {
             ),
             child: Row(
               children: [
-                Icon(Icons.fastfood,
-                    size: 48, color: Theme.of(context).colorScheme.primary),
+                Icon(
+                  Icons.fastfood,
+                  size: 48,
+                  color: Theme.of(context).colorScheme.primary,
+                ),
                 const SizedBox(width: 18),
                 Text(
                   'Cooking Up!',
