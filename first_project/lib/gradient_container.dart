@@ -37,7 +37,7 @@ class NamedArguments extends StatelessWidget {
   const NamedArguments({super.key, required this.color1, required this.color2});
 
   final Color color1;
-  final Color color2;5
+  final Color color2;
 
   @override
   Widget build(context) {
